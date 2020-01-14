@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'react-navigation-study' do
-  # Pods for react-navigation-study
+target 'react_navigation_study' do
+  # Pods for react_navigation_study
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -42,10 +42,10 @@ target 'react-navigation-study' do
   use_native_modules!
 end
 
-target 'react-navigation-study-tvOS' do
-  # Pods for react-navigation-study-tvOS
+target 'react_navigation_study-tvOS' do
+  # Pods for react_navigation_study-tvOS
 
-  target 'react-navigation-study-tvOSTests' do
+  target 'react_navigation_study-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

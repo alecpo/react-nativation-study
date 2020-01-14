@@ -1,4 +1,4 @@
-package com.react-navigation-study;
+package com.react_navigation_study;
 
 import android.app.Application;
 import android.content.Context;

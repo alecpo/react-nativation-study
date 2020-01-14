@@ -1,4 +1,4 @@
-package com.react-navigation-study;
+package com.react_navigation_study;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "react-navigation-study";
+    return "react_navigation_study";
   }
 
   @Override
