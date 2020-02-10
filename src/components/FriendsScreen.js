@@ -4,7 +4,7 @@ import {withNavigation} from 'react-navigation';
 
 const FriendsScreen = () => (
   <StyledContainer>
-    <StyledText>Friends</StyledText>
+    <StyledText testID={'friends'}>Friends</StyledText>
   </StyledContainer>
 );
 
