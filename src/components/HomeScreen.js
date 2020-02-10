@@ -5,7 +5,10 @@ import {withNavigation} from 'react-navigation';
 const HomeScreen = ({navigation}) => (
   <StyledContainer>
     <StyledText>Home</StyledText>
-    <StyledButton color="#f80" onPress={() => navigation.navigate('Friends')}>
+    <StyledButton
+      testID={'gotofriends'}
+      color="#f80"
+      onPress={() => navigation.navigate('Friends')}>
       <StyledText>Go to Friends</StyledText>
     </StyledButton>
     <StyledButton

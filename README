@@ -1,0 +1,1 @@
+detox test -c android.emu.debug
